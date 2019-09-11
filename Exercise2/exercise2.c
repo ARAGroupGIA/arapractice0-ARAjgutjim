@@ -2,11 +2,13 @@
 
 main(){
 	/* Here, you should write the source code of your program */
-	int a,b, result;
+	int a,b,c, result;
 	printf("Please insert a number ");
 	scanf(" %d",&a);
-	printf("Insert another number I will summed them ");
+	printf("Please insert another number ");
 	scanf(" %d",&b);
-	result=a+b;
-	printf("The reult of summing %d and %d is %d", a,b,result);
+	printf("Insert another number I will summed them ");
+	scanf(" %d",&c);
+	result=a+b+c;
+	printf("The reult of summing %d, %d and %d is %d", a,b,c,result);
 }
